@@ -1,0 +1,254 @@
+.first {
+    width: 99%;
+    height: 80px;
+    padding-top: 15px;
+    background-color: darkblue;
+    color: white;
+    font-size: 35px;
+    z-index: 1;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+ul{
+    list-style: none;
+}
+.hov {
+    text-decoration: none;
+}
+li:hover{
+    background-color: white;
+    color: darkcyan;
+}
+.firstpart{
+    padding-left: 35px;
+}
+.secondpart{
+    padding-left: 305px;
+}
+@media screen and (max-width: 1590px) and (min-width: 1380px) {
+    .first{
+        width:100%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1379px) and (min-width:1080px) {
+    .first{
+        width:100%;
+        font-size: 25px;
+    }
+    .secondpart{
+        padding-left: 260px;
+    }
+}
+@media screen and (max-width: 1079px) and (min-width:900px) {
+    .first {
+        width: 100%;
+        font-size: 22px;
+    }
+    .secondpart{
+        padding-left: 230px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width:730px) {
+    .first {
+        width: 100%;
+        font-size: 20px;
+    }
+    .secondpart{
+        padding-left: 130px;
+    }
+}
+@media screen and (max-width: 729px) and (min-width:590px) {
+    .first {
+        width: 100%;
+        font-size: 18px;
+    }
+    .secondpart{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 589px) and (min-width:470px) {
+    .first {
+        width: 100%;
+        font-size: 16px;
+    }
+    .secondpart{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 469px) and (min-width:431px) {
+    .first {
+        width: 100%;
+        font-size: 15px;
+    }
+    .secondpart{
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .secondpart{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 10px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 6px;
+    }
+    .secondpart{
+        padding-left: 4px;
+    }
+}
+
+.second{
+    text-align: center;
+    font-size: 60px;
+    color: firebrick;
+    text-decoration: underline lightslategrey;
+}
+.third {
+    height: auto;
+    width: 100%;
+    background-image: url("backgroundformenu2.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 430px) and (min-width: 380px){
+    .first {
+        height: 30px;
+    }
+
+    .fourth {
+       width: 250px;
+    }
+    .fourth1 {
+        text-align: center; 
+   }
+   /* .last {
+    margin-top: 40px;
+} */
+
+}
+.last {
+    background-color: lightgoldenrodyellow;
+    height: 220px;
+    width: 100%;
+}
+.last1 {
+    font-size: 50px;
+    padding-top: 64px;
+    border: dotted 10px;
+    border-color: cyan;
+    height: 220px;
+    color: darkorchid;
+    text-align: center;
+}
+@media screen and (max-width: 800px) and (min-width: 780px){
+    .first {
+        height: 60px;
+    }
+    .third {
+    height: auto;
+    width: 100%;
+    background-image: url("backgroundformenu2.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .last {
+        background-color: lightgoldenrodyellow;
+        height: 160px;
+        width: 100%;
+    }
+    .last1 {
+        font-size: 30px;
+        padding-top: 60px;
+        border: dotted;
+        border-color: cyan;
+        height: 160px;
+        color: darkorchid;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px){
+    .third {
+        height: auto;
+        width: 100%;
+        background-image: url("backgroundformenu2.jpg");
+        /* Set a specific height */
+        min-height: 500px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .last {
+    background-color: lightgoldenrodyellow;
+    height: 140px;
+    width: 100%;
+    }
+    .last1 {
+    font-size: 15px;
+    padding-top: 60px;
+    border: dotted;
+    border-color: cyan;
+    height: 140px;
+    color: darkorchid;
+    text-align: center;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 320px){
+    .third {
+        height: auto;
+        width: 100%;
+        background-image: url("backgroundformenu2.jpg");
+        /* Set a specific height */
+        min-height: 500px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .last {
+    background-color: lightgoldenrodyellow;
+    height: 140px;
+    width: 100%;
+    }
+    .last1 {
+    font-size: 15px;
+    padding-top: 60px;
+    border: dotted;
+    border-color: cyan;
+    height: 140px;
+    color: darkorchid;
+    text-align: center;
+    }
+}
+.fourth1 {
+    padding-left: 120px
+}
+@media screen and (max-width: 1350px) and (min-width: 1100px) {
+    .fourth1 {
+        padding-left: 80px
+    }
+}

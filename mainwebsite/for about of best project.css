@@ -1,0 +1,317 @@
+.start {
+    background-color: lightsteelblue;
+}
+.first {
+    width: 99%;
+    background-color: darkblue;
+    color: white;
+    font-size: 35px;
+    z-index: 1;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+ul{
+    list-style: none;
+}
+.hov {
+    text-decoration: none;
+}
+li:hover{
+    background-color: white;
+    color: darkcyan;
+}
+.firstpart{
+    padding-left: 35px;
+}
+.secondpart{
+    padding-left: 305px;
+}
+@media screen and (max-width: 1590px) and (min-width: 1380px) {
+    .first{
+        width:100%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1379px) and (min-width:1080px) {
+    .first{
+        width:100%;
+        font-size: 25px;
+    }
+    .secondpart{
+        padding-left: 260px;
+    }
+}
+@media screen and (max-width: 1079px) and (min-width:900px) {
+    .first {
+        width: 100%;
+        font-size: 22px;
+    }
+    .secondpart{
+        padding-left: 230px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width:730px) {
+    .first {
+        width: 100%;
+        font-size: 20px;
+    }
+    .secondpart{
+        padding-left: 130px;
+    }
+}
+@media screen and (max-width: 729px) and (min-width:590px) {
+    .first {
+        width: 100%;
+        font-size: 18px;
+    }
+    .secondpart{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 589px) and (min-width:470px) {
+    .first {
+        width: 100%;
+        font-size: 16px;
+    }
+    .secondpart{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 469px) and (min-width:431px) {
+    .first {
+        width: 100%;
+        font-size: 15px;
+    }
+    .secondpart{
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .secondpart{
+        padding-left: 10px;
+    }
+}
+.img1 {
+    position: relative;
+    filter: blur(3px);
+}
+.third {
+    position: absolute;
+    font-size: 80px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    top: 290px;
+    left: 770px;
+    color: white;
+}
+
+@media screen and (max-width: 800px) and (min-width: 780px){
+    .third {
+        position: absolute;
+        font-size: 65px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        top: 270px;
+        left: 250px;
+        color: white;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px){
+    .for412 {
+        height: 200px;
+    }
+    .img1 {
+        position: relative;
+        filter: blur(2px);
+    }
+    .third {
+        position: absolute;
+        font-size: 40px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        top: 130px;
+        left: 115px;
+        color: white;
+    }
+}
+.fourth {
+    font-size: 30px;
+    font-family: fantasy;
+    color: lightslategray;
+    text-align: center;
+}
+.fifth {
+    font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; text-align: center; font-size: 80px
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .fourth {
+        font-size: 10px;
+        font-family: fantasy;
+        color: lightslategray;
+        text-align: center;
+    }
+    .fifth {
+        font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; text-align: center; font-size: 35px
+    }
+}
+.sixth1 {
+    padding-top: 100px;
+    padding-left: 340px;
+    font-size: 18px;
+    text-decoration: underline lightskyblue;
+}
+.sixth2 {
+    font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 60px;
+    padding-left: 260px;
+}
+.sixth3 {
+    font-size: 14px;
+    padding-left: 200px;
+}
+@media screen and (max-width: 800px) and (min-width: 780px){
+    .layerspic1{
+        width: 90%;
+    }
+    .sixth1 {
+        padding-top: 70px;
+        padding-left: 110px;
+        font-size: 15px;
+        text-decoration: underline lightskyblue;
+    }
+    .sixth2 {
+        font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 40px;
+        padding-left: 65px;
+    }
+    .sixth3 {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .layerspic1center {
+        text-align: center;
+    }
+    .layerspic1{
+        width: 70%;
+    }
+    .sixth1 {
+        padding-left: 160px;
+        font-size: 14px;
+        text-decoration: underline lightskyblue;
+    }
+    .sixth2 {
+        font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 35px;
+        padding-left: 120px;
+    }
+    .sixth3 {
+        font-size: 10px;
+        padding-left: 55px;
+    }
+}
+.seventh1 {
+    padding-top: 100px;
+    padding-left: 120px;
+    font-size: 18px;
+    text-decoration: underline lightskyblue;
+}
+.seventh2 {
+    font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 50px;
+    padding-left: 30px;
+}
+.seventh3 {
+    font-size: 14px;
+
+}
+.seventh4 {
+    padding-left: 200px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .seventh1 {
+        padding-top: 100px;
+        padding-left: 80px;
+        font-size: 12px;
+        text-decoration: underline lightskyblue;
+    }
+    .seventh2 {
+        font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 35px;
+        padding-left: 20px;
+    }
+    .seventh3 {
+        font-size: 11px;
+
+    }
+    .seventh4 {
+        padding-left: 200px;
+    }
+    .layerspic2 {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .seventh1 {
+        padding-left: 140px;
+        font-size: 13px;
+        text-decoration: underline lightskyblue;
+    }
+    .seventh2 {
+        font-weight: bold; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 32px;
+        padding-left: 90px;
+    }
+    .seventh3 {
+        font-size: 10px;
+        padding-left: 55px;
+
+    }
+    .layerspic2center {
+      text-align: center;
+        padding-top: 90px;
+    }
+    .layerspic2 {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .layerspic3 {
+        width: 90%;
+        height: 100%;
+    }
+    .layerspic4 {
+        width: 90%;
+        height: 100%;
+    }
+    .fourth {
+        font-size:24px;
+        font-family: fantasy;
+        color: cyan;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .layerspic3 {
+        width: 70%;
+        height: 100%;
+    }
+    .layerspic4 {
+        width: 70%;
+        height: 100%;
+    }
+    .layerspic3center {
+        text-align: center;
+    }
+    .layerspic4center {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .fourth {
+        font-size: 13px;
+        font-family: fantasy;
+        color: forestgreen;
+        text-align: center;
+    }
+}

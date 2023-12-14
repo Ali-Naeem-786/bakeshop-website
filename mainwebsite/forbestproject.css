@@ -1,0 +1,745 @@
+.fullpage {
+    width: 100%;
+    background-color: lightskyblue ;
+}
+.first {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    font-size: 35px;
+    z-index: 1;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+ul{
+   list-style: none;
+}
+.hov {
+    text-decoration: none;
+}
+li:hover{
+    background-color: white;
+    color: darkcyan;
+}
+.firstpart{
+    padding-left: 35px;
+}
+.secondpart{
+    padding-left: 305px;
+}
+.second1 {
+    position: relative;
+}
+.second2 {
+    position: absolute;
+    font-size: 25px;
+    top: 90px;
+    left: 80px;
+    color: lightskyblue;
+    font-family: sans-serif;
+    border: solid 1px lightsteelblue;
+}
+.second3 {
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    top: 450px;
+    left: 860px;
+    color: white;
+    font-family: sans-serif;
+}
+.second4 {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    top: 480px;
+    left: 630px;
+    color: white;
+    font-family: sans-serif;
+}
+.second5 {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 570px;
+    left: 864px;
+    color: white;
+    background-color: lightgreen;
+    border: dot-dash darkturquoise;
+    font-family: sans-serif;
+}
+.second6 {
+    position: absolute;
+    font-size: 25px;
+    color: black;
+    top: 90px;
+    right: 80px;
+    border: dotted 1px lightsteelblue;
+    font-family: sans-serif;
+}
+.third {
+    text-align: center;
+    font-size: 30px;
+    color: cadetblue;
+    text-decoration: underline darkviolet;
+}
+
+.fourth {
+    margin: 47px;
+}
+.fifth {
+    margin-left: 450px;
+    color: coral;
+    font-size: 28px;
+}
+.sixth {
+    width: 100%;
+}
+.sixth1 {
+    font-size: 33px;
+    text-align: center;
+    color: deeppink;
+}
+.sixth2 {
+    font-size: 15px;
+    color: darkblue;
+    text-align: center;
+}
+.sixth3{
+    font-size: 25px;
+    margin-left: 39px;
+    color: deeppink;
+}
+.sixth4{
+    font-size: 15px;
+    color: darkblue;
+    margin-left: 39px;
+}
+.seventh {
+    width: 100%;
+    background-image: url("backgorund image.jpeg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1000px;
+}
+.seventh1 {
+    padding-top: 240px;
+    padding-left: 320px;
+    font-size: 24px;
+}
+.eighth {
+    width: 100%;
+    height: 350px;
+    background-color: darkslategray;
+}
+.eighth1 {
+    font-size: 18px;
+    color: cyan;
+    font-family: "Rockwell Extra Bold";
+    padding-left: 400px;
+    padding-top: 90px;
+}
+.eighth2 {
+    padding-left: 600px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.eighth3 {
+    height: 50px;
+}
+.eighth4:hover {
+    color: white;
+}
+@media screen and (max-width: 1590px) and (min-width: 1380px) {
+    .first{
+        width:100%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1379px) and (min-width:1080px) {
+    .first{
+        width:100%;
+        font-size: 25px;
+    }
+    .secondpart{
+        padding-left: 260px;
+    }
+}
+@media screen and (max-width: 1079px) and (min-width:900px) {
+    .first {
+        width: 100%;
+        font-size: 22px;
+    }
+    .secondpart{
+        padding-left: 230px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width:730px) {
+    .first {
+        width: 100%;
+        font-size: 20px;
+    }
+    .secondpart{
+        padding-left: 130px;
+    }
+}
+@media screen and (max-width: 729px) and (min-width:590px) {
+    .first {
+        width: 100%;
+        font-size: 18px;
+    }
+    .secondpart{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 589px) and (min-width:470px) {
+    .first {
+        width: 100%;
+        font-size: 16px;
+    }
+    .secondpart{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 469px) and (min-width:431px) {
+    .first {
+        width: 100%;
+        font-size: 15px;
+    }
+    .secondpart{
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .secondpart{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 10px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 6px;
+    }
+    .secondpart{
+        padding-left: 4px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .second1 {
+        position: relative;
+    }
+    .second2 {
+        position: absolute;
+        font-size: 20px;
+        top: 60px;
+        left: 52px;
+        color: lightskyblue;
+        font-family: sans-serif;
+        border: solid 1px lightsteelblue;
+    }
+    .second3 {
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        top: 210px;
+        left: 346px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second4 {
+        position: absolute;
+        font-size: 28px;
+        font-weight: bold;
+        top: 230px;
+        left: 260px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second5 {
+        position: absolute;
+        font-size: 24px;
+        font-weight: bold;
+        top: 270px;
+        left: 347px;
+        color: white;
+        background-color: lightgreen;
+        border: dot-dash darkturquoise;
+        font-family: sans-serif;
+    }
+    .second6 {
+        position: absolute;
+        font-size: 20px;
+        color: lightgrey;
+        top: 60px;
+        right: 52px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .second1 {
+        position: relative;
+    }
+    .second2 {
+        position: absolute;
+        font-size: 12px;
+        top: 44px;
+        left: 35px;
+        color: lightskyblue;
+        font-family: sans-serif;
+        border: solid 1px lightsteelblue;
+    }
+    .second3 {
+        position: absolute;
+        font-size: 8px;
+        font-weight: bold;
+        top: 122px;
+        left: 175px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second4 {
+        position: absolute;
+        font-size: 17px;
+        font-weight: bold;
+        top: 132px;
+        left: 118px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second5 {
+        position: absolute;
+        font-size: 10px;
+        font-weight: bold;
+        top: 158px;
+        left: 186px;
+        color: white;
+        background-color: lightgreen;
+        border: dot-dash darkturquoise;
+        font-family: sans-serif;
+    }
+    .second6 {
+        position: absolute;
+        font-size: 12px;
+        color: lightgrey;
+        top: 44px;
+        right: 35px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width: 1550px) and (min-width: 1200px) {
+    .third {
+        text-align: center;
+        font-size: 30px;
+        color: blueviolet;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 801px) {
+    .third {
+        text-align: center;
+        font-size: 25px;
+        color: blueviolet;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .third {
+        text-align: center;
+        font-size: 19px;
+        color: blueviolet;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 779px) and (min-width: 431px) {
+    .second6 {
+        position: absolute;
+        font-size: 16px;
+        color: blue;
+        top: 84px;
+        right: 80px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+    .third {
+        padding-right: 100px;
+        font-size: 15px;
+        color: darkblue;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 300px) {
+    .second6 {
+        position: absolute;
+        font-size: 14px;
+        color: blue;
+        top: 44px;
+        right: 80px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+    .third {
+        padding-right: 55px;
+        font-size: 11px;
+        color: red;
+        text-decoration: underline darkviolet;
+        margin-top: -25px;
+    }
+}
+
+@media screen and (max-width: 1550px) and (min-width: 1200px) {
+    .fourth {
+        margin: 27px;
+    }
+    .fourth1{
+            margin: 30px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 320px) {
+    .fourth {
+        margin: 10px;
+    }
+    .fourth1{
+            margin: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    
+    .fourth1{
+        margin: 56px;
+    }
+    .fourth2{
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .fourth3 {
+        margin-top: -32px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .fifth {
+        margin-left: 360px;
+        color: coral;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .fifth {
+        margin-left: 120px;
+        color: coral;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 779px) and (min-width: 431px) {
+    .fifth {
+        margin-left: 120px;
+        color: coral;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .fifth {
+        margin-left: 64px;
+        color: coral;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 10px) {
+    .fifth {
+        margin-left: 20px;
+        color: coral;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .seventh1 {
+        padding-top: 240px;
+        padding-left: 110px;
+        font-size: 18px;
+    }
+    .seventh2 {
+        margin-top: 16px;
+        margin-left: 155px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .seventh1 {
+        padding-top: 240px;
+        padding-left: 1px;
+        font-size: 16px;
+    }
+    .seventh3 {
+        width: 24.7rem;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkmagenta;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 300px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       /* margin-top: 10px; */
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darksalmon;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 80px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       /* margin-top: 10px; */
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 801px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkgrey;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 20px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       /* margin-top: 10px; */
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       margin-top: -184px;
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 779px) and (min-width: 670px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       margin-top: -184px;
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 669px) and (min-width: 549px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 350px;
+       margin-top: -184px;
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 548px) and (min-width: 431px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 11px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 270px;
+       margin-top: -150px;
+        font-size: 10px;
+    }
+    .eighth3 {
+        height: 30px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 11px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 70px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 230px;
+        margin-top: -170px;
+        font-size: 12px;
+    }
+    .eighth3 {
+        height: 32px;
+        width: 140px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 300px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 9px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 70px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 190px;
+        margin-top: -140px;
+        font-size: 8px;
+    }
+    .eighth3 {
+        height: 15px;
+        width: 70px;
+    }
+}
+@media screen and (max-width: 299px) and (min-width: 200px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 5px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 50px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 100px;
+        margin-top: -130px;
+        font-size: 5px;
+    }
+    .eighth3 {
+        height: 20px;
+        width: 60px;
+    }
+}
+@media screen and (max-width: 199px) and (min-width: 1px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 3px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 20px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 30px;
+        margin-top: -10px;
+        font-size: 5px;
+    }
+    .eighth3 {
+        height: 20px;
+        width: 60px;
+    }
+}
+.socialmedia:hover {
+    background-color: lightcyan;
+    color: cadetblue;
+}
+.power {
+    font-family: fantasy;
+    font-size: 20px;
+}

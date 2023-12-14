@@ -1,0 +1,246 @@
+
+.fullpage {
+    background-color: lightseagreen;
+    width: 99%;
+}
+.first {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    font-size: 35px;
+    z-index: 1;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+ul{
+    list-style: none;
+}
+.hov {
+    text-decoration: none;
+}
+li:hover{
+    background-color: white;
+    color: darkcyan;
+}
+.firstpart{
+    padding-left: 35px;
+}
+.secondpart{
+    padding-left: 305px;
+}
+@media screen and (max-width: 1590px) and (min-width: 1380px) {
+    .first{
+        width:100%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1379px) and (min-width:1080px) {
+    .first{
+        width:100%;
+        font-size: 25px;
+    }
+    .secondpart{
+        padding-left: 260px;
+    }
+}
+@media screen and (max-width: 1079px) and (min-width:900px) {
+    .first {
+        width: 100%;
+        font-size: 22px;
+    }
+    .secondpart{
+        padding-left: 230px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width:730px) {
+    .first {
+        width: 100%;
+        font-size: 20px;
+    }
+    .secondpart{
+        padding-left: 130px;
+    }
+}
+@media screen and (max-width: 729px) and (min-width:590px) {
+    .first {
+        width: 100%;
+        font-size: 18px;
+    }
+    .secondpart{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 589px) and (min-width:470px) {
+    .first {
+        width: 100%;
+        font-size: 16px;
+    }
+    .secondpart{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 469px) and (min-width:431px) {
+    .first {
+        width: 100%;
+        font-size: 15px;
+    }
+    .secondpart{
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .secondpart{
+        padding-left: 10px;
+    }
+}
+
+.second{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: darkblue;
+    text-decoration: underline darkviolet;
+}
+.third {
+    text-align: center;
+}
+.form1stpart {
+    width: 520px;
+    height: 46px;
+    padding-left: 24px;
+  }
+.form2ndpart {
+    width: 420px;
+    height: 86px;
+    padding-left: 24px;
+}
+.formlastpart {
+    width: 140px;
+    height: 50px;
+    border-color: blue;
+    border-style: solid;
+}
+.formlastpart:hover {
+    background-color: red;
+    color: white;
+}
+@media screen and (max-width: 800px) and (min-width: 780px){
+    .form1stpart {
+        width: 400px;
+        height: 46px;
+        padding-left: 24px;
+    }
+    .form2ndpart {
+        width: 300px;
+        height: 86px;
+        padding-left: 24px;
+    }
+    .formlastpart {
+        width: 90px;
+        height: 50px;
+        border-color: blue;
+        border-style: solid;
+    }
+    .formlastpart:hover {
+        background-color: red;
+        color: white;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px){
+    .form1stpart {
+        width: 220px;
+        height: 46px;
+        padding-left: 24px;
+    }
+    .form2ndpart {
+        width: 160px;
+        height: 76px;
+        padding-left: 24px;
+    }
+    .formlastpart {
+        width: 80px;
+        height: 40px;
+        border-color: blue;
+        border-style: solid;
+    }
+    .formlastpart:hover {
+        background-color: red;
+        color: white;
+    }
+}
+.fourth {
+    color: lightsalmon;
+    text-align: center;
+    font-size: 20px;
+}
+.fifth {
+    width: 100%;
+    height: 265px;
+    background-color: #777777;
+    color: white;
+}
+.fifth1 {
+    padding-left: 700px;
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.fifth2 {
+    padding-left: 50px;
+    padding-top: 120px;
+    font-size: 40px;
+    color: dodgerblue;
+    text-decoration: underline lightseagreen;
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .fifth {
+        width: 100%;
+        height: 230px;
+        background-color: #777777;
+        color: white;
+    }
+    .fifth1 {
+        padding-left: 220px;
+        padding-top: 50px;
+        font-size: 44px;
+        font-weight: bold;
+    }
+    .fifth2 {
+        padding-left: 10px;
+        padding-top: 100px;
+        font-size: 32px;
+        color: dodgerblue;
+        text-decoration: underline lightseagreen;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .fifth {
+        width: 100%;
+        height: 190px;
+        background-color: #777777;
+        color: white;
+    }
+    .fifth1 {
+        padding-left: 100px;
+        padding-top: 50px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .fifth2 {
+        padding-left: 10px;
+        padding-top: 90px;
+        font-size: 18px;
+        color: dodgerblue;
+        text-decoration: underline lightseagreen;
+    }
+}
+
+
+

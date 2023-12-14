@@ -1,0 +1,143 @@
+.start {
+    background-color: lightcyan;
+}
+.first {
+    padding-left: 40px;
+    color: cyan;
+    font-size: 100px;
+    padding-top: 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.second {
+    text-align: right;
+    padding-right: 40px;
+    color: gold;
+    padding-top: 600px;
+    font-size: 70px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+a:hover {
+    color: white;
+    background-color: lightcyan;
+}
+.backgroundimage {
+    width: 100%;
+    height:1000px;
+    background-image: url("lastbgimage.webp");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third {
+    font-family: fantasy;
+    color: darkcyan;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline lightblue;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fourth {
+    text-align: center;
+}
+.last {
+    height: 200px;
+    padding-top: 70px;
+    background-color: lightblue;
+    color: grey;
+    text-align: center;
+    font-family: "Footlight MT Light";
+    font-size: 50px;
+    border: dashed 8px;
+    border-color: coral;
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .first {
+        padding-left: 40px;
+        color: cyan;
+        font-size: 50px;
+        padding-top: 50px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    .second {
+        text-align: right;
+        padding-right: 40px;
+        color: gold;
+        padding-top: 600px;
+        font-size: 40px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .first {
+        padding-left: 8px;
+        color: cyan;
+        font-size: 30px;
+        padding-top: 30px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+
+    .second {
+        text-align: right;
+        padding-right: 30px;
+        color: gold;
+        padding-top: 630px;
+        font-size: 25px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+
+    .backgroundimage {
+        width: 100%;
+        height: 760px;
+        background-image: url("lastbgimage.webp");
+        /* Set a specific height */
+        min-height: 500px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .last {
+        height: 160px;
+        padding-top: 50px;
+        background-color: lightblue;
+        color: darkgreen;
+        text-align: center;
+        font-family: "Footlight MT Light";
+        font-size: 24px;
+        border: dashed 8px;
+        border-color: coral;
+    }
+}

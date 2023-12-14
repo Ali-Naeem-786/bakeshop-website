@@ -1,0 +1,260 @@
+.container {
+    background-color: lightslategrey;
+    width: 98%;
+    height: 80px;
+    font-size: 27px;
+    padding: 15px;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+}
+.logo {
+    float: left;
+}
+.a1 {
+    float: right;
+    text-decoration: none;
+    display: inline;
+    padding: 22px;
+
+}
+.bgc:hover {
+    background-color: darkgray;
+}
+.mac {
+    position: relative;
+}
+
+.book {
+    position: absolute;
+    top:170px;
+    left:60px;
+    color: white;
+    font-size: 70px;
+    font-family: monospace;
+}
+.mac2 {
+    position: relative;
+}
+.book2 {
+    position: absolute;
+    top: -510px;
+    left: 60px;
+    color: white;
+    font-size: 40px;
+    font-family: Serif;
+    font-weight: lighter;
+}
+h3 {
+    text-align: center;
+    color: black;
+    font-size: 48px;
+}
+.p1 {
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+}
+.p2 {
+    color: black;
+    font-size: 20px;
+    padding: 45px;
+}
+.keyfeature {
+    display: inline-block;
+    padding: 33px;
+}
+.know {
+    background-color: lightyellow;
+    height: 395px;
+    width: 99.5%;
+}
+.knowimage1 {
+    float: right;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: darkturquoise;
+}
+.knowimage2 {
+    float: left;
+}
+.team {
+    display: inline-block;
+    padding: 30px;
+}
+.teamdata {
+    padding: 15px;
+}
+.done {
+    width: 99.5%;
+    height: 420px;
+    background-color: darkslategrey;
+}
+.inlinedone {
+    display: inline-block;
+    font-size: 50px;
+    padding: 110px;
+    color: white;
+}
+.workdone {
+    display: inline;
+    padding: 19px;
+}
+.skill {
+    width: 99.6%;
+    height: auto;
+    background-color: lightslategrey;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.pricing {
+    background-color: darkslategray;
+    height: 1550px;
+    width: 99.6%;
+}
+.priceitself {
+    color: white;
+    font-size: 50px;
+    padding: 158px;
+    text-align: center;
+}
+.row {
+    display: inline-block;
+    padding: 13px;
+}
+.carddataparent1 {
+    height: 55px;
+    width: 450px;
+    padding: 70px;
+    font-size: 44px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.carddatachild1 {
+    height: 3px;
+    width: 483px;
+    text-align: center;
+    padding: 50px;
+    font-size: 19px;
+    background-color: floralwhite;
+    border: solid black;
+    color: black;
+}
+.cardend1 {
+    height: 44px;
+    width: 488.5px;
+    text-align: center;
+    padding: 50px;
+    background-color: lightgrey;
+}
+.input1 {
+    background-color: black;
+    color: white;
+}
+.carddataparent2 {
+    height: 88px;
+    width: 450px;
+    padding: 70px;
+    font-size: 44px;
+    background-color: red;
+    color: white;
+    border: black;
+    text-align: center;
+}
+.carddatachild2 {
+    height: 3px;
+    width: 483px;
+    text-align: center;
+    padding: 50px;
+    font-size: 19px;
+    background-color: floralwhite;
+    border: solid black;
+    color: black;
+}
+.cardend2 {
+    height: 68px;
+    width: 488.5px;
+    text-align: center;
+    padding: 50px;
+    background-color: lightgrey;
+}
+.input1 {
+    background-color: black;
+    color: white;
+}
+.input2:hover {
+    background-color: white;
+    color: black;
+}
+.carddataparent3 {
+    height: 55px;
+    width: 450px;
+    padding: 70px;
+    font-size: 44px;
+    background-color: black;
+    color: white;
+    border: black;
+    text-align: center;
+}
+.carddatachild3 {
+    height: 3px;
+    width: 483px;
+    text-align: center;
+    padding: 50px;
+    font-size: 19px;
+    background-color: floralwhite;
+    border: solid black;
+    color: black;
+}
+.cardend3 {
+    height: 44px;
+    width: 488.5px;
+    text-align: center;
+    padding: 50px;
+    background-color: lightgrey;
+}
+.input1 {
+    background-color: black;
+    color: white;
+}
+.input2:hover {
+    background-color: white;
+    color: black;
+}
+.contact {
+    text-align: center;
+    color: darkmagenta;
+    font-size: 28px;
+    margin: -17px;
+}
+h5 {
+    font-size: 33px;
+    color: darkcyan;
+}
+.margan {
+    margin: 25px;
+}
+.customerdata {
+    width: 99.1%;
+    height: 45px;
+    background-color: floralwhite;
+}
+.sendmessage {
+    height: 50px;
+    width: 10%;
+    color: black;
+}
+.last {
+    background-color: black;
+    color: white;
+    width: 99.5%;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}

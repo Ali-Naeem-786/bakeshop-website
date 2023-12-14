@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--    <link href="for%20social%20media%20of%20best%20project.css" type="text/css" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Social Media</title>
+    <style>
+        .start {
+            background-color: lightcyan;
+        }
+        .first {
+            padding-left: 40px;
+            color: cyan;
+            font-size: 100px;
+            padding-top: 50px;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+        }
+        .second {
+            text-align: right;
+            padding-right: 40px;
+            color: gold;
+            padding-top: 600px;
+            font-size: 70px;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+        }
+        a:hover {
+            color: white;
+            background-color: lightcyan;
+        }
+        .backgroundimage {
+            width: 100%;
+            height:1000px;
+            background-image: url("lastbgimage.webp");
+            /* Set a specific height */
+            min-height: 500px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .third {
+            font-family: fantasy;
+            color: darkcyan;
+            text-align: center;
+            font-size: 50px;
+            text-decoration: underline lightblue;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+        .fourth {
+            text-align: center;
+        }
+        .last {
+            height: 200px;
+            padding-top: 70px;
+            background-color: lightblue;
+            color: grey;
+            text-align: center;
+            font-family: "Footlight MT Light";
+            font-size: 50px;
+            border: dashed 8px;
+            border-color: coral;
+        }
+        @media screen and (max-width: 800px) and (min-width: 780px) {
+            .first {
+                padding-left: 40px;
+                color: cyan;
+                font-size: 50px;
+                padding-top: 50px;
+                font-family: Brush Script MT, Brush Script Std, cursive;
+            }
+            .second {
+                text-align: right;
+                padding-right: 40px;
+                color: gold;
+                padding-top: 600px;
+                font-size: 40px;
+                font-family: Brush Script MT, Brush Script Std, cursive;
+            }
+        }
+        @media screen and (max-width: 430px) and (min-width: 380px) {
+            .first {
+                padding-left: 8px;
+                color: cyan;
+                font-size: 30px;
+                padding-top: 30px;
+                font-family: Brush Script MT, Brush Script Std, cursive;
+            }
+
+            .second {
+                text-align: right;
+                padding-right: 30px;
+                color: gold;
+                padding-top: 630px;
+                font-size: 25px;
+                font-family: Brush Script MT, Brush Script Std, cursive;
+            }
+
+            .backgroundimage {
+                width: 100%;
+                height: 760px;
+                background-image: url("lastbgimage.webp");
+                /* Set a specific height */
+                min-height: 500px;
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .last {
+                height: 160px;
+                padding-top: 50px;
+                background-color: lightblue;
+                color: darkgreen;
+                text-align: center;
+                font-family: "Footlight MT Light";
+                font-size: 24px;
+                border: dashed 8px;
+                border-color: coral;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<script src="forsocialmedia.js" type="text/javascript" rel="script"></script>
+<div class="start">
+    <div class="backgroundimage">
+        <div class="first">
+            WELCOME TO
+        </div>
+        <div class="second">
+            <a id="secondjava" onclick="social()" style="text-decoration: none; color: gold">OUR SOCIAL MEDIA</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="third">
+        You Can Find Us On
+    </div>
+    <br>
+    <br>
+    <div class="fourth">
+        <a href="https://www.facebook.com/ali.naeem4?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+    </div>
+    <br>
+    <div class="fourth">
+        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmanabhai7460%3Ft%3D8nkgE4Yn02bzmastNd_DXw%26s%3D09%26fbclid%3DIwAR1o9a2pLX6G-SW7VH_eq9pB4vYDO8At5L2WVn5rol7YwGbwTr8IhBiZ7Ts&h=AT3Sdh4bo3sbC-W4V4DRYMSXLrFQtYzOVmd-DGHidYw7W4hsDLpIsaxVZ-W6D5oTY_YdMs49DOmjGFid5cWAfs0_feRZCu_pWstRNRrZrTuCtrGlhfoHbiWESh7sckFf3yM7UA" class="fa fa-twitter"></a>
+    </div>
+    <br>
+    <div class="fourth">
+        <a href="https://www.facebook.com/ali.naeem4?mibextid=ZbWKwL" class="fa fa-instagram"></a>
+    </div>
+    <br>
+    <div class="fourth">
+        <a href="https://www.facebook.com/ali.naeem4?mibextid=ZbWKwL" class="fa fa-google"></a>
+    </div>
+    <br>
+    <br>
+    <div class="last">
+        <div class="last1">WORLD OF MAGICICAL CAKES</div>
+    </div>
+</div>
+</body>
+</html>

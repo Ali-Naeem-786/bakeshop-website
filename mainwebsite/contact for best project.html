@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    <link href="forcontactofbestproject.css" type="text/css" rel="stylesheet">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>contact</title>
+    <style>
+        .fullpage {
+            background-color: lightseagreen;
+            width: 99%;
+        }
+        .first {
+            width: 100%;
+            background-color: darkblue;
+            color: white;
+            font-size: 35px;
+            z-index: 1;
+            top: 0;
+            position: -webkit-sticky;
+            position: sticky;
+        }
+        ul{
+            list-style: none;
+        }
+        .hov {
+            text-decoration: none;
+        }
+        li:hover{
+            background-color: white;
+            color: darkcyan;
+        }
+        .firstpart{
+            padding-left: 35px;
+        }
+        .secondpart{
+            padding-left: 305px;
+        }
+        @media screen and (max-width: 1590px) and (min-width: 1380px) {
+            .first{
+                width:100%;
+                font-size: 30px;
+            }
+        }
+        @media screen and (max-width: 1379px) and (min-width:1080px) {
+            .first{
+                width:100%;
+                font-size: 25px;
+            }
+            .secondpart{
+                padding-left: 260px;
+            }
+        }
+        @media screen and (max-width: 1079px) and (min-width:900px) {
+            .first {
+                width: 100%;
+                font-size: 22px;
+            }
+            .secondpart{
+                padding-left: 230px;
+            }
+        }
+        @media screen and (max-width: 899px) and (min-width:730px) {
+            .first {
+                width: 100%;
+                font-size: 20px;
+            }
+            .secondpart{
+                padding-left: 130px;
+            }
+        }
+        @media screen and (max-width: 729px) and (min-width:590px) {
+            .first {
+                width: 100%;
+                font-size: 18px;
+            }
+            .secondpart{
+                padding-left: 50px;
+            }
+        }
+        @media screen and (max-width: 589px) and (min-width:470px) {
+            .first {
+                width: 100%;
+                font-size: 16px;
+            }
+            .secondpart{
+                padding-left: 30px;
+            }
+        }
+        @media screen and (max-width: 469px) and (min-width:431px) {
+            .first {
+                width: 100%;
+                font-size: 15px;
+            }
+            .secondpart{
+                padding-left: 16px;
+            }
+        }
+        @media screen and (max-width: 430px) and (min-width: 380px) {
+            .first {
+                width: 100%;
+                height: 28px;
+                padding-top: 5px;
+                font-size: 12px;
+            }
+            .secondpart{
+                padding-left: 10px;
+            }
+        }
+
+        .second{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 30px;
+            color: darkblue;
+            text-decoration: underline darkviolet;
+        }
+        .third {
+            text-align: center;
+        }
+        .form1stpart {
+            width: 520px;
+            height: 46px;
+            padding-left: 24px;
+        }
+        .form2ndpart {
+            width: 420px;
+            height: 86px;
+            padding-left: 24px;
+        }
+        .formlastpart {
+            width: 140px;
+            height: 50px;
+            border-color: blue;
+            border-style: solid;
+        }
+        .formlastpart:hover {
+            background-color: red;
+            color: white;
+        }
+        @media screen and (max-width: 800px) and (min-width: 780px){
+            .form1stpart {
+                width: 400px;
+                height: 46px;
+                padding-left: 24px;
+            }
+            .form2ndpart {
+                width: 300px;
+                height: 86px;
+                padding-left: 24px;
+            }
+            .formlastpart {
+                width: 90px;
+                height: 50px;
+                border-color: blue;
+                border-style: solid;
+            }
+            .formlastpart:hover {
+                background-color: red;
+                color: white;
+            }
+        }
+        @media screen and (max-width: 430px) and (min-width: 380px){
+            .form1stpart {
+                width: 220px;
+                height: 46px;
+                padding-left: 24px;
+            }
+            .form2ndpart {
+                width: 160px;
+                height: 76px;
+                padding-left: 24px;
+            }
+            .formlastpart {
+                width: 80px;
+                height: 40px;
+                border-color: blue;
+                border-style: solid;
+            }
+            .formlastpart:hover {
+                background-color: red;
+                color: white;
+            }
+        }
+        .fourth {
+            color: lightsalmon;
+            text-align: center;
+            font-size: 20px;
+        }
+        .fifth {
+            width: 100%;
+            height: 265px;
+            background-color: #777777;
+            color: white;
+        }
+        .fifth1 {
+            padding-left: 700px;
+            padding-top: 50px;
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .fifth2 {
+            padding-left: 50px;
+            padding-top: 120px;
+            font-size: 40px;
+            color: dodgerblue;
+            text-decoration: underline lightseagreen;
+        }
+        @media screen and (max-width: 800px) and (min-width: 780px) {
+            .fifth {
+                width: 100%;
+                height: 230px;
+                background-color: #777777;
+                color: white;
+            }
+            .fifth1 {
+                padding-left: 220px;
+                padding-top: 50px;
+                font-size: 44px;
+                font-weight: bold;
+            }
+            .fifth2 {
+                padding-left: 10px;
+                padding-top: 100px;
+                font-size: 32px;
+                color: dodgerblue;
+                text-decoration: underline lightseagreen;
+            }
+        }
+        @media screen and (max-width: 430px) and (min-width: 380px) {
+            .fifth {
+                width: 100%;
+                height: 190px;
+                background-color: #777777;
+                color: white;
+            }
+            .fifth1 {
+                padding-left: 100px;
+                padding-top: 50px;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            .fifth2 {
+                padding-left: 10px;
+                padding-top: 90px;
+                font-size: 18px;
+                color: dodgerblue;
+                text-decoration: underline lightseagreen;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+<script src="jsfileforcontact.js" type="text/javascript" rel="script"></script>
+<div class="fullpage">
+    <div class="first">
+        <div class="row">
+            <div class="firstpart">
+                <p style="font-weight: bold; font-family: 'Lucida Console'">layers</p>
+            </div>
+            <div class="secondpart">
+                <ul class="row">
+                    <li>
+                        <a style="text-decoration: none; font-family: Papyrus " href="menuforbestproject.html">Menu</a>
+                    </li>
+                    &nbsp;  &nbsp;  &nbsp;
+                    <li>
+                        <a style="text-decoration: none;  font-family: Papyrus" href="about%20for%20my%20best%20project.html">About</a>
+                    </li>
+                    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                        <li>
+                        <a style="text-decoration: none;  font-family: Papyrus; color: red;" href="mybestproject.html"> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!--    <br>-->
+<!--    <br>-->
+    <div class="second">
+        <p>
+            CONTACT US
+        </p>
+    </div>
+    <br>
+<!--    <div class="third">-->
+<!--        <form class="" name="students" onsubmit="return form_validation()"  method="post">-->
+<!--            <label for="">First Name</label> <br>-->
+<!--            <input type="text" name="fname" > <br>-->
+<!--            <label for="">Last Name</label> <br>-->
+<!--            <input type="text" name="lname" value=""> <br>-->
+<!--            <label for="">Email</label> <br>-->
+<!--            <input type="text" name="email" value=""> <br>-->
+<!--            <input type="submit" name="submit" value="Submit"> <br>-->
+<!--        </form>-->
+<!--<br>-->
+<!--        <br>-->
+<!--    <br>-->
+    <div class="third">
+        <form name="student" onsubmit="return form_validation()" method="post">
+            <p>
+                <b>First Name:</b>
+            </p>
+            <input class="form1stpart" type="text"  name="fname">
+            <b id="err1"></b>
+            <br>
+            <br>
+            <p>
+                <b>Last Name:</b>
+            </p>
+            <input class="form1stpart" type="text" name="lname">
+            <b id="err2"></b>
+            <br>
+            <br>
+            <p>
+                <b> Email:</b>
+            </p>
+            <input class="form1stpart" type="text" name="email">
+            <b id="err3"></b>
+            <br>
+<!--            <br>-->
+<!--            <p>-->
+<!--                <b>Phone:</b>-->
+<!--            </p>-->
+<!--            <input class="form1stpart" type="text" required name="phone">-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <p>-->
+<!--                <b>Address:</b>-->
+<!--            </p>-->
+<!--            <input class="form1stpart" type="text" required name="address">-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <p>-->
+<!--                <b>Order:</b>-->
+<!--                </p>-->
+<!--            <input class="form2ndpart" type="text"  requiredname="order">-->
+<!--            <br>-->
+            <br>
+            <input class="formlastpart"  type="submit" name="submit" value="Send">
+        </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <p class="second">
+            LAYER's CAKE BAKERY
+        </p>
+    </div>
+    <br>
+    <div class="fourth">
+        4250 Barranca Pkwy, STE I<br>
+        Irvine, CA 92604<br>
+        <br> <br>
+        (949)786-0223
+        <br>
+        <b>info@layercakebakery.com</b>
+    </div>
+    <br>
+    <br>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1722299.6278661562!2d72.6047815920537!3d32.52971336030895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190741a4efec05%3A0x3d666a9d89966ec6!2sLayers%20Bakeshop%20-%20Y%20Block%20DHA!5e0!3m2!1sen!2s!4v1670499941152!5m2!1sen!2s" width="100%" height="600" ></iframe>
+    </div>
+
+    <div class="fifth">
+        <div class="row">
+            <div class="fifth1">
+                <b>Layer's</b>
+            </div>
+            <div class="fifth2">
+                A Dream Come True
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

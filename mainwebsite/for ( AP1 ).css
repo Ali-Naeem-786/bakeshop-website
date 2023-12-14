@@ -1,0 +1,23 @@
+.one {
+    display: inline;
+    background-color: brown;
+}
+.two {
+    float: right;
+}
+.text{
+    position: relative;
+    background-color: rgb(235, 235, 235);
+
+}
+.de{
+    position: absolute;
+    top:-18px;
+    left:119px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.sign{
+    background-color: black;
+    color:white;
+}

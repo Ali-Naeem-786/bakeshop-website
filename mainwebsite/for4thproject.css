@@ -1,0 +1,55 @@
+.intro1 {
+    background-color: whitesmoke;
+    height: 52px;
+    width: 100%;
+}
+.intro2 {
+    font-size: 38px;
+    display: inline;
+    padding: 180px;
+}
+.introlink {
+    text-decoration: none;
+    color: black;
+}
+.introlink:hover {
+    background-color: lightgray;
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+.offer {
+    display: inline-block;
+}
+.offer1 {
+    background-color: whitesmoke;
+    height: 130px;
+    width: 180px;
+    padding: 50px;
+}
+.offer2 {
+    background-color: dimgrey;
+    height: 130px;
+    width: 180px;
+    padding: 50px;
+}
+.offer3 {
+    background-color: rosybrown;
+    color: white;
+    height: 130px;
+    width: 180px;
+    padding: 50px;
+}
+.offer4 {
+    background-color:black;
+    color: white;
+    height: 130px;
+    width: 180px;
+    padding: 50px;
+}
